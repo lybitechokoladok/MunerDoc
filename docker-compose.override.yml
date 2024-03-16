@@ -9,3 +9,8 @@ services:
       ASPNETCORE_HTTP_PORTS: "8080"
     ports:
       - "5000:8080"
+  client:
+    container_name: muner-doc-client
+    ports:
+      - "5001:3000"
+  
