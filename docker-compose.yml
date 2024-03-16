@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  munerdoc-api:
+    
+    build:
+      context: .
+      dockerfile: MunerDoc.Api/Dockerfile
