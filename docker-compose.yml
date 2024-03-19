@@ -10,3 +10,5 @@ services:
     build: 
         context: ./muner-doc-client
         dockerfile: Dockerfile
+  proxy:
+    image: nginx:mainline
