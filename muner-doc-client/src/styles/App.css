@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#root{
+	display: flex;
+	justify-content: center;
+}
+
+.App{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 100%;
+	background-color: #0d1117;	
+}
+
+
+header{
+	height: 80px;
+	flex-shrink: 0;
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer{
+	height: 100px;
+}
+
+.navbar{
+	margin-top: 20px;
+	margin-inline: 20px;
+	display:flex;
+	flex-direction: row;
+	height: 40px;
+}
+
+.navButtonWrapper{
+	width: 200px;
+	margin-left: 20px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.authWrapper{
+	margin-left: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: transparent;
+	border: none;
+}
+
+.sections{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10%;
+	margin-inline: 5%;
+}
+
+.section{
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 0;
+	flex-grow: 0;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.reviewContentWrapper{
+	text-align: left;
+	width: 92%;
+	margin-top: 24px;
+}
+
+.aboutContentWrapper{
+	text-align: left;
+	width: 92%;
+	margin-top: 24px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.reviewContentWrapper h1{
+	position: relative;
+	font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-feature-settings: unset;
+	font-size: 60px;
+	line-height: 80px;
+	z-index: 2;
+}
+
+.reviewContentWrapper p{
+	font-size: 24px;
+	color: #878787;
+	margin-top: 30px;
+	margin-bottom: 230px;
+}
+
+.reviewContentWrapper .partners-wrapper{
+	width: 100%;
+	display: block;
+}
+
+.partnersWrapper p{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.partners{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footerSubtle{
+	background-color: #161b22;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.footerSubtleFlex{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding-inline: 100px;
+}
+
+.footerSubtle ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.linkSecondary{
+	color: #848d97;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.mx2{
+	margin-inline: 20px;
+}

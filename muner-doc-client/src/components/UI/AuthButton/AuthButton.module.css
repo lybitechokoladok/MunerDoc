@@ -1,0 +1,36 @@
+.authButton {
+	background-color: transparent;
+	border: none;
+}
+
+.authButton a{
+	 color: #fff;
+	 text-decoration: none;
+	 cursor: pointer;
+	 font-size: 18px;
+	 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.authButton a:hover{
+	 color: #c4c4c4;
+	 transition: color 100ms linear;
+}
+
+.authButton a:first-child{
+	 margin-right: 20px;
+}
+
+.authButton a:last-child{
+	 border: 1px #fff solid;
+	 border-radius: 5px;
+	 height: 100%;
+	 padding: 10px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+
+.authButton a:last-child:hover{
+	 border: 1px #c4c4c4 solid;
+	 transition: border-color 100ms linear;
+}
