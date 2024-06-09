@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+.appMain{
+	height: 100vh;
+	width: 100%;
+	background-color: #0d1117;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	font-size: 20px;
+}
+
+.headerWrapper{
+	flex-shrink: 0;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-inline: 20px;
+}
+
+.headerWrapper img{
+	margin-right: auto;
+}
+
+.headerWrapper p{
+	margin-right: 30px;
+	color: #878787;
+}
+
+.headerWrapper button{
+	border: none;
+	background: transparent;
+}
+
+.headerWrapper button a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+.main{
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card{
+	background: #0C162D;
+	border: 1px #202637 solid;
+	border-radius: 10px;
+	padding: 24px;
+	margin: 24px;
+}
+.cardWrapper{
+	max-width: 654px;
+	display: block;
+	width: 100%;
+}
+
+.card div span{
+	color: #8193b2 ;
+	line-height: 1.5;
+}
+
+.card .card-text{
+	display: block;
+	margin-bottom: 30px;
+}
+
+.card form p{
+	color: #00CFC8;
+	margin-bottom: 10px;
+	word-wrap: break-word;
+}
+
+.emailInput,
+.passwordInput{
+	width: 100%;
+	word-wrap: break-word;
+	background: transparent;
+	font-size: 22px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	border: 1px solid #989898;
+	color: white;
+	padding-inline: 10px;
+}
+
+.formBottom{
+	display: flex;
+	flex-direction: row;
+	align-items: last baseline;
+	margin-top: 20px;
+}
+
+.formBottomInput{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.continueInput{
+	width: 100%;
+	font-size: 22px;
+	padding-inline: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #4B8E16;
+	word-wrap: break-word;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid #989898;
+	height: fit-content;
+}
+
+.formWrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: last baseline;
+	justify-content: space-between;
+	align-items: center;
+	justify-content: center;
+}
+
+.input{
+	width: 100%;
+	margin-bottom: 50px;
+}

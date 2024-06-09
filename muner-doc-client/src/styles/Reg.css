@@ -1,0 +1,145 @@
+.oction{
+	margin-inline: auto;
+	height: 24px;
+	width: 24px;
+	filter: invert(1);
+}
+
+.appMain{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	font-size: 20px;
+}
+
+.headerWrapper{
+	flex-shrink: 0;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-inline: 20px;
+}
+
+.headerWrapper img{
+	height: 50px;
+	width: 50px;
+	margin-right: 50px;
+	border-radius: 100%;
+	background-color: #fff;
+	border: 1px white solid;
+	margin-right: auto;
+}
+
+.headerWrapper p{
+	margin-right: 30px;
+	color: #878787;
+}
+
+.headerWrapper button{
+	border: none;
+	background: transparent;
+}
+
+.headerWrapper button a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+.main{
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card{
+	background: #0C162D;
+	border: 1px #202637 solid;
+	border-radius: 10px;
+	padding: 24px;
+	margin: 24px;
+}
+.card-wrapper{
+	max-width: 654px;
+	display: block;
+	width: 100%;
+}
+
+.card div span{
+	color: #8193b2 ;
+	line-height: 1.5;
+}
+
+.card .card-text{
+	display: block;
+	margin-bottom: 30px;
+}
+
+.card form p{
+	color: #00CFC8;
+	margin-bottom: 10px;
+}
+
+.email-input,
+.password-input{
+	width: 100%;
+	word-wrap: break-word;
+	background: transparent;
+	font-size: 22px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	border: 1px solid #989898;
+	color: white;
+	padding-inline: 10px;
+}
+
+.form-bottom{
+	display: flex;
+	flex-direction: row;
+	align-items: last baseline;
+	margin-top: 20px;
+}
+
+.form-bottom-input{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.continue-input{
+	font-size: 22px;
+	padding-inline: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: transparent;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid #989898;
+	height: fit-content;
+}
+
+.form-wrapper{
+	display: flex;
+	flex-direction: row;
+	align-items: last baseline;
+	justify-content: space-between;
+}
+
+.inputs{
+	margin-right: 30px;
+	width: 100%;
+}
+
+@media(width < 300px){
+	.form-wrapper{
+			flex-direction: column;
+	}
+
+	.inputs{
+			margin-right: 0;
+	}
+}

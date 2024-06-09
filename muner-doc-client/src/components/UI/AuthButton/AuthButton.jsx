@@ -4,7 +4,7 @@ import classes from './AuthButton.module.css';
 const AuthButton = function ({children, ...props}) {
 	return (
 		<button className={classes.authButton}>
-			<a href="#">{children}</a>
+			<a {...props}>{children}</a>
 		</button>
 	)
 }

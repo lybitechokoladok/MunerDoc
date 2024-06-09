@@ -13,7 +13,7 @@ const Header = function () {
 					<NavButton> О продукте</NavButton>
 				</ul>
 				<div className="authWrapper">
-					<AuthButton>Вход</AuthButton>
+					<AuthButton href="/login">Вход</AuthButton>
 					<AuthButton>Авторизация</AuthButton>
 				</div>
 			</div>
