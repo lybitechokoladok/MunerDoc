@@ -7,13 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
+    <PackageReference Include="MediatR" Version="12.3.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MunerDoc.Contracts\MunerDoc.Contracts.csproj" />
     <ProjectReference Include="..\MunerDoc.Domain\MunerDoc.Domain.csproj" />
+    <ProjectReference Include="..\MunerDoc.Persistence\MunerDoc.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

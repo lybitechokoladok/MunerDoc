@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MunerDoc.Domain.Entites;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,7 @@ namespace MunerDoc.Persistence
         {
             
         }
+
+        public DbSet<User> Users { get; set; }
     }
 }

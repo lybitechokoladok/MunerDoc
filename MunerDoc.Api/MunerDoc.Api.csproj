@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\MunerDoc.Persistence\MunerDoc.Persistence.csproj" />
+    <ProjectReference Include="..\MunerDoc.Persistence\MunerDoc.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
